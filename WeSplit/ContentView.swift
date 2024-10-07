@@ -39,6 +39,7 @@ struct ContentView: View {
                             Text("\($0) people")
                         }
                     }
+                    .pickerStyle(.navigationLink)
                 }
                 
                 Section("How much do you want to tip?") {
